@@ -5,18 +5,18 @@ public class Groupware{
     String CompanyId;
     String CompanyPassword;
     String APIType;
-    boolean bool;
+    boolean Bool;
 
 
 
-    public Groupware(int Id, String CompanyType, String CompanyName, String CompanyId, String CompanyPassword, String APIType, boolean bool) {
+    public Groupware(int Id, String CompanyType, String CompanyName, String CompanyId, String CompanyPassword, String APIType, boolean Bool) {
         this.Id = Id;
         this.CompanyType = CompanyType;
         this.CompanyName = CompanyName;
         this.CompanyId = CompanyId;
         this.CompanyPassword = CompanyPassword;
         this.APIType = APIType;
-        this.bool = bool;
+        this.Bool = Bool;
     }
 
     public String getCompanyId(){
