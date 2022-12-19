@@ -1,24 +1,24 @@
 public class Groupware {
-    int Id;
+    int CompanyId;
     String CompanyType;
     String CompanyName;
-    String CompanyId;
+    String Id;
     String CompanyPassword;
     String APIType;
     boolean ServerStatus;
 
 
-    public Groupware(int Id, String CompanyType, String CompanyName, String CompanyId, String CompanyPassword, String APIType, boolean ServerStatus) {
-        this.Id = Id;
+    public Groupware(int CompanyId, String CompanyType, String CompanyName, String Id, String CompanyPassword, String APIType, boolean ServerStatus) {
+        this.CompanyId = CompanyId;
         this.CompanyType = CompanyType;
         this.CompanyName = CompanyName;
-        this.CompanyId = CompanyId;
+        this.Id = Id;
         this.CompanyPassword = CompanyPassword;
         this.APIType = APIType;
         this.ServerStatus = ServerStatus;
     }
 
-    public String getCompanyId() {
+    public int getCompanyId() {
         return this.CompanyId;
     }
 
@@ -30,7 +30,7 @@ public class Groupware {
         this.ServerStatus = ServerStatus;
     }
 
-    public Object getServerStatus() {
+    public boolean getServerStatus() {
         return this.ServerStatus;
     }
 }

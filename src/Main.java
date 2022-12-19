@@ -51,6 +51,11 @@ public class Main {
                     break;
                 case 2:
                     System.out.println("서비스를 삭제합니다.");
+                    System.out.println("회사 아이디를 입력해주세요");
+                    scanner.nextInt();
+                    scanner.next();
+                    Groupware removeGroupware = new Groupware(scanner.nextInt(), scanner.next(), "1234","1234","1234", "false", false);
+                    groupwares.remove(removeGroupware);
                     break;
                 case 3:
                     System.out.println("서비스의 서버를 종료합니다.");
