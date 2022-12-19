@@ -1,4 +1,4 @@
-public class Groupware{
+public class Groupware {
     int Id;
     String CompanyType;
     String CompanyName;
@@ -6,7 +6,6 @@ public class Groupware{
     String CompanyPassword;
     String APIType;
     boolean Bool;
-
 
 
     public Groupware(int Id, String CompanyType, String CompanyName, String CompanyId, String CompanyPassword, String APIType, boolean Bool) {
@@ -19,11 +18,26 @@ public class Groupware{
         this.Bool = Bool;
     }
 
-    public String getCompanyId(){
+    public String getCompanyId() {
         return this.CompanyId;
     }
 
-    public String getCompanyName(){
+    public String getCompanyName() {
         return this.CompanyName;
     }
+
+    public boolean setServerStatus(boolean b) {
+        return
+    }
 }
+
+
+//    public void getCompanyId() {
+//        System.out.println(this.CompanyId);
+//    }
+//    public void getCompanyName() {
+//        System.out.println(this.CompanyName);
+//    }
+//
+//}
+

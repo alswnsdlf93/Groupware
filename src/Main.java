@@ -17,16 +17,58 @@
 
 
 import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
+
+
+//public class Main {
+//
+//    public static void main(String[] args) {
+////    Groupware[] groupwares = new Groupware[5];
+//        List<Groupware> groupwares = new ArrayList<Groupware>();
+//        groupwares.add(new Groupware(1,"t1","A회사", "A","1234","KWIC", true));
+//        groupwares.add(new Groupware(2,"t2","B회사", "B","1234","KWIC", true));
+//        groupwares.add(new Groupware(3,"t3","C회사", "C","1234","CODEF", false));
+//        groupwares.add(new G
+//import java.util.ArrayList;
+//import java.util.List;
+//import java.util.Scanner;
+//
+//        public class Main {
+//
+//            public static void main(String[] args) {
+////    Groupware[] groupwares = new Groupware[5];
+//                List<Groupware> groupwares = new ArrayList<Groupware>();
+//                groupwares.add(new Groupware(1,"t1","A회사", "A","1234","KWIC", true));
+//                groupwares.add(new Groupware(2,"t2","B회사", "B","1234","KWIC", true));
+//                groupwares.add(new Groupware(3,"t3","C회사", "C","1234","CODEF", false));
+//                groupwares.add(new G
+//                        List<Groupware> groupwares = new ArrayList<Groupware>();
+//                groupwares.add(new Groupware(1,"t1","A회사", "A","1234","KWIC", true));
+//                groupwares.add(new Groupware(2,"t2","B회사", "B","1234","KWIC", true));
+//                groupwares.add(new Groupware(3,"t3","C회사", "C","1234","CODEF", false));
+//                groupwares.add(new Groupware(4,"t4","D회사", "D","1234","KWIC", true));
+//                groupwares.add(new Groupware(5,"t5","E회사", "E","1234","CODEF", true));
+//                private static void printAll(List<Groupware> groupwares){
+//                    for(Groupware groupware : groupwares){
+//                        System.out.printf("id : %d | %s", groupware.getCompanyId(), groupware.getCompanyName());
+//                        System.out.println();
+//                    }
+//                }
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        Groupware[] groupwares = new Groupware[5];
-        groupwares[0] = new Groupware(1,"t1","A회사", "A","1234","KWIC", true);
-        groupwares[1] = new Groupware(2,"t2","B회사", "B","1234","KWIC", true);
-        groupwares[2] = new Groupware(3,"t3","C회사", "C","1234","CODEF", false);
-        groupwares[3] = new Groupware(4,"t4","D회사", "D","1234","KWIC", true);
-        groupwares[4] = new Groupware(5,"t5","E회사", "E","1234","CODEF", true);
+//    Groupware[] groupwares = new Groupware[5];
+        List<Groupware> groupwares = new ArrayList<Groupware>();
+        groupwares.add(new Groupware(1,"t1","A회사", "A","1234","KWIC", true));
+        groupwares.add(new Groupware(2,"t2","B회사", "B","1234","KWIC", true));
+        groupwares.add(new Groupware(3,"t3","C회사", "C","1234","CODEF", false));
+        groupwares.add(new Groupware(4,"t4","D회사", "D","1234","KWIC", true));
+        groupwares.add(new Groupware(5,"t5","E회사", "E","1234","CODEF", true));
 
         int sentinalValue = 1;
         Scanner scanner = new Scanner(System.in);
@@ -37,12 +79,20 @@ public class Main {
             switch (sentinalValue){
                 case 1 :
                     System.out.println("서비스를 추가합니다.");
+                    System.out.println("회사 아이디를 입력해주세요");
+                    int companyId = scanner.nextInt();
+                    System.out.println("회사 이름을 입력해주세요");
+                    String companyName = scanner.next();
+                    Groupware addGroupware = new Groupware(companyId, companyName, "1234","1234","1234", "false", false);
+                    groupwares.add(addGroupware);
                     break;
                 case 2:
                     System.out.println("서비스를 삭제합니다.");
                     break;
                 case 3:
                     System.out.println("서비스의 서버를 종료합니다.");
+                    companyId = scanner.nextInt();
+                    groupwares.get(companyId - 1).setServerStatus(false);
                     break;
                 case 4:
                     System.out.println("계정명, 계정 비밀번호를 변경합니다.");
@@ -51,9 +101,9 @@ public class Main {
         }
     }
 
-    private static void printAll(Groupware[] groupwares){
+    private static void printAll(List<Groupware> groupwares){
         for(Groupware groupware : groupwares){
-            System.out.printf("id : %d | %s", groupware.getCompanyId(), groupware.getCompanyName());
+            System.out.printf("id : %d | %s | %s" , groupware.getCompanyId(), groupware.getCompanyName(), groupware.getServerStatus());
             System.out.println();
         }
     }
