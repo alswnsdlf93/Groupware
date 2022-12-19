@@ -21,43 +21,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-//public class Main {
-//
-//    public static void main(String[] args) {
-////    Groupware[] groupwares = new Groupware[5];
-//        List<Groupware> groupwares = new ArrayList<Groupware>();
-//        groupwares.add(new Groupware(1,"t1","A회사", "A","1234","KWIC", true));
-//        groupwares.add(new Groupware(2,"t2","B회사", "B","1234","KWIC", true));
-//        groupwares.add(new Groupware(3,"t3","C회사", "C","1234","CODEF", false));
-//        groupwares.add(new G
-//import java.util.ArrayList;
-//import java.util.List;
-//import java.util.Scanner;
-//
-//        public class Main {
-//
-//            public static void main(String[] args) {
-////    Groupware[] groupwares = new Groupware[5];
-//                List<Groupware> groupwares = new ArrayList<Groupware>();
-//                groupwares.add(new Groupware(1,"t1","A회사", "A","1234","KWIC", true));
-//                groupwares.add(new Groupware(2,"t2","B회사", "B","1234","KWIC", true));
-//                groupwares.add(new Groupware(3,"t3","C회사", "C","1234","CODEF", false));
-//                groupwares.add(new G
-//                        List<Groupware> groupwares = new ArrayList<Groupware>();
-//                groupwares.add(new Groupware(1,"t1","A회사", "A","1234","KWIC", true));
-//                groupwares.add(new Groupware(2,"t2","B회사", "B","1234","KWIC", true));
-//                groupwares.add(new Groupware(3,"t3","C회사", "C","1234","CODEF", false));
-//                groupwares.add(new Groupware(4,"t4","D회사", "D","1234","KWIC", true));
-//                groupwares.add(new Groupware(5,"t5","E회사", "E","1234","CODEF", true));
-//                private static void printAll(List<Groupware> groupwares){
-//                    for(Groupware groupware : groupwares){
-//                        System.out.printf("id : %d | %s", groupware.getCompanyId(), groupware.getCompanyName());
-//                        System.out.println();
-//                    }
-//                }
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
 
 public class Main {
 
