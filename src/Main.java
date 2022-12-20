@@ -52,8 +52,7 @@ public class Main {
                 case 2:
                     System.out.println("서비스를 삭제합니다.");
                     System.out.println("회사 아이디를 입력해주세요");
-                    scanner.nextInt();
-                    scanner.next();
+                    scanner.nextLine();
                     Groupware removeGroupware = new Groupware(scanner.nextInt(), scanner.next(), "1234","1234","1234", "false", false);
                     groupwares.remove(removeGroupware);
                     break;
@@ -65,7 +64,9 @@ public class Main {
                 case 4:
                     System.out.println("계정명, 계정 비밀번호를 변경합니다.");
                     System.out.println("변경할 고객사 id: ");
-                    scanner.next();
+                    scanner.nextInt();
+                    Groupware setGroupware = new Groupware(scanner.nextInt(), scanner.next(), "1234","1234","1234", "false", false);
+                    groupwares.set(setGroupware);
                     break;
             }
         }
