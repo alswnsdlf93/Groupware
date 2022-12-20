@@ -64,6 +64,8 @@ public class Main {
                     break;
                 case 4:
                     System.out.println("계정명, 계정 비밀번호를 변경합니다.");
+                    System.out.println("변경할 고객사 id: ");
+                    scanner.next();
                     break;
             }
         }
