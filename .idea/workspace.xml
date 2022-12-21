@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c86b8087-d8d6-4e29-9736-f80d78205f49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="c86b8087-d8d6-4e29-9736-f80d78205f49" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+            <state relative-caret-position="430">
+              <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#729#740#0" expanded="true" />
@@ -85,10 +83,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="756" />
-    <option name="y" value="38" />
-    <option name="width" value="756" />
-    <option name="height" value="888" />
+    <option name="x" value="1512" />
+    <option name="y" value="25" />
+    <option name="width" value="960" />
+    <option name="height" value="995" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -171,7 +169,7 @@
       <updated>1670812157541</updated>
       <workItem from="1670812162749" duration="224000" />
       <workItem from="1670812400554" duration="20776000" />
-      <workItem from="1671075962602" duration="9867000" />
+      <workItem from="1671075962602" duration="11461000" />
     </task>
     <task id="LOCAL-00001" summary="데이터 읽기, 추가,  변경, 삭제 기능 구현">
       <created>1670993790889</created>
@@ -191,7 +189,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30867000" />
+    <option name="totallyTimeSpent" value="32461000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -203,10 +201,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="756" y="38" width="756" height="888" extended-state="0" />
+    <frame x="1512" y="25" width="960" height="995" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33613446" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26143792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -215,7 +213,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42405063" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42405063" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -223,7 +221,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49931973" weight="0.3721519" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49931973" visible="true" weight="0.3277592" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50068027" side_tool="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3277592" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -274,8 +272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+        <state relative-caret-position="430">
+          <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#729#740#0" expanded="true" />
